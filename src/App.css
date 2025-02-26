@@ -1,0 +1,36 @@
+.container {
+  width: 90%;
+  min-height: 100vh;
+  margin: 0 auto;
+  background: darkcyan;
+  padding: 15px;
+}
+
+.container h1 {
+  color: white;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap:70px;
+  margin-top: 15px;
+}
+
+.card {
+  width: 20%;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+.card-heading {
+  text-align: center;
+}
+
+.card-body {
+  text-align: center;
+  font-size: 18px;
+}
